@@ -14,7 +14,7 @@ spec:
       labels:
         app: vprodb
     spec:
-      contaniners:
+      containers:
         - name: vprodb
           image: wlejd/vprofiledb:latest
           volumeMounts:
